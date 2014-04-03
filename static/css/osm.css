@@ -1,0 +1,93 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial);
+
+#homepage-hero {
+  background: url("../img/background1.jpg") #cbeca5;
+  height: 450px;
+  text-align: center;
+  position: relative;
+  padding: 100px 20px 0 20px; }
+  @media screen and (max-width: 768px) {
+    #homepage-hero {
+      padding: 60px 5px 30px 5px; 
+      height: 350px; } }
+
+#homepage-hero h4 {
+    font-size: 1.35em;
+    font-weight: 200; }
+
+@media screen and (max-width: 768px) {
+      #homepage-hero h2 {
+        font-size: 24px;
+        line-height: 32px; }}
+
+#homepage-hero .attrib {
+    font-family: Sans;
+    font-size: 1em;
+    font-weight: 200;
+    text-align: right;
+    position: absolute; 
+    bottom: 0; 
+    right: 0}
+
+
+@media screen and (min-width: 641px) {
+     #homepage-mid {
+       background: url("../img/background2.jpg") #cbeca5;
+       padding: 20px 20px 0 20px; }}
+
+.main-content {
+  margin: 24px 0 22px;
+  padding-bottom: 0px;
+  @media screen and (max-width: 768px) {
+    .main-content {
+      margin: 15px 0 15px;
+      padding-bottom: 0px; } } }
+
+.main-content blockquote {
+    font-family: 'Questrial', sans-serif, "微軟正黑體", "Microsoft JhengHei";
+    font-size: 1.2em;
+    color: black;
+    font-style:italic;
+}
+.main-content blockquote .fa-quote-left {
+    color: green;
+}
+
+
+
+.main-content h1,h2,h3,h4 {
+   font-family: 'Questrial', sans-serif, "微軟正黑體", "Microsoft JhengHei";
+   text-align: center;
+}
+
+.main-content li,p,button {
+   font-family: 'Questrial', sans-serif, "微軟正黑體", "Microsoft JhengHei";}
+
+.main-content .big-icon > img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.main-content .app-icon {
+   text-align: center;
+   color : green;
+}
+
+#footer-bottom {
+  background: #1b4c15;
+  padding: 24px 0 10px; 
+  color: #bbffbb
+}
+
+#footer-bottom .app-icon {
+   text-align: center;
+   color : green;
+}
+
+#footer-bottom .github-link {
+   text-align: center;
+   color : #bbffbb;
+}
+
+
